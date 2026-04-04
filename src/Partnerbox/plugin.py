@@ -1966,9 +1966,15 @@ def partnerboxEPGSelectionRecordTimerQuestion(self, manual=False):
 			foundtimer = self.getRecordEvent(str(sref), event)
 			if foundtimer:
 				timer = foundtimer
-				cb_func1 = lambda ret: removeRemoteTimer(timer)
-				cb_func2 = lambda ret: editRemoteTimer(timer)
-				cb_func3 = lambda ret: toggleRemoteTimer(timer)
+
+				def cb_func1(ret):
+					return removeRemoteTimer(timer)
+
+				def cb_func2(ret):
+					return editRemoteTimer(timer)
+
+				def cb_func3(ret):
+					return toggleRemoteTimer(timer)
 				menu = [
 						(__("Delete Timer"), "CALLFUNC", self.RemoveChoiceBoxCB, cb_func1),
 						(__("Edit Timer"), "CALLFUNC", self.RemoveChoiceBoxCB, cb_func2)

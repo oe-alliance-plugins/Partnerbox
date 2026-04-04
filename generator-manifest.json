@@ -1,0 +1,19 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "Partnerbox (Remote Bouquets, Channels, Timers and TV Player)",
+  "description_recipe": "Partnerbox (Remote Bouquets, Channels, Timers and TV Player)",
+  "history_source_dir": "partnerbox2",
+  "internal_package_name": "enigma2-plugin-extensions-partnerbox",
+  "module_dir_name": "partnerbox2",
+  "output_subdir": "partnerbox2",
+  "package_name": "enigma2-plugin-extensions-partnerbox",
+  "plugin_src_rel": "partnerbox2",
+  "python_package": "partnerbox2",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "partnerbox2",
+  "rrecommends": "",
+  "rreplaces": "",
+  "selected_from_plugin_list": true
+}

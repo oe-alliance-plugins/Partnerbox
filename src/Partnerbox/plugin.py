@@ -205,13 +205,13 @@ class PartnerboxGlobals:
 		epglist = []
 		if jsondict:
 			for event in jsondict.get("events", []):
-				eid = event.get("id", 0)
+				# eid = event.get("id", 0)
 				begin = event.get("begin_timestamp", 0)
 				duration = event.get("duration_sec", 0)
 				title = unescape(event.get("title", ""))
-				shortdesc = unescape(event.get("shortdesc", ""))
-				longdesc = unescape(event.get("longdesc", ""))
-				sref = event.get("sref", "")
+				# shortdesc = unescape(event.get("shortdesc", ""))
+				# longdesc = unescape(event.get("longdesc", ""))
+				# sref = event.get("sref", "")
 				sname = unescape(event.get("sname", _("n/a")))
 				begintime = datetime.fromtimestamp(begin)
 				end = begintime + timedelta(seconds=duration)
@@ -435,7 +435,7 @@ class PBAutoPoller:
 	def createTimerListTask(self, index):
 		job = Job("PartnerBoxTimer")
 		taskname = f"PartnerBoxTimer_{index}"
-		task = TimerListTask(job, taskname, index, self.session)
+		task = TimerListTask(job, taskname, index, self.session)  # noqa: F841
 		return job
 
 	def runEpgTimerUpdate(self, index=-1):
@@ -477,7 +477,7 @@ class PBAutoPoller:
 		job = Job("PartnerBoxEPG")
 		for sindex, service in enumerate(services):
 			taskname = f"PartnerBoxEPG_{index}_{sindex}"
-			task = EPGTask(job, taskname, index, service)
+			task = EPGTask(job, taskname, index, service)  # noqa: F841
 		return job
 
 	def getServices(self, index):

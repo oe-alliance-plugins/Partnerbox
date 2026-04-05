@@ -1,35 +1,35 @@
 
 
-# <p align="center">partnerbox2 Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/partnerbox2.svg)</p>
+# <p align="center">Partnerbox Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/Partnerbox.svg)</p>
 
 **Partnerbox (Remote Bouquets, Channels, Timers and TV Player)**
 
 
 ## Github status
-[![Build](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/buildbot.yml/badge.svg)](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/buildbot.yml)
-[![Lint Status](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/pylint.yml/badge.svg)](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/pylint.yml)
-[![Ruff Status](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/ruff.yml/badge.svg)](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/ruff.yml)
-[![Build Status](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/compile.yml/badge.svg)](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/compile.yml)
-[![AUTOTAG](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/autotag.yml/badge.svg)](https://github.com/oe-alliance-plugins/partnerbox2/actions/workflows/autotag.yml)
+[![Build](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/buildbot.yml/badge.svg)](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/buildbot.yml)
+[![Lint Status](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/pylint.yml/badge.svg)](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/pylint.yml)
+[![Ruff Status](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/ruff.yml/badge.svg)](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/ruff.yml)
+[![Build Status](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/compile.yml/badge.svg)](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/compile.yml)
+[![AUTOTAG](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/autotag.yml/badge.svg)](https://github.com/oe-alliance-plugins/Partnerbox/actions/workflows/autotag.yml)
 
 
-[![Plugin Version](https://img.shields.io/github/v/tag/oe-alliance-plugins/partnerbox2?label=Latest%20Version&color=darkviolet)](https://github.com/oe-alliance-plugins/partnerbox2/tags)
-[![Latest Release](https://img.shields.io/github/release-date/oe-alliance-plugins/partnerbox2?label=From&color=darkviolet)](https://github.com/oe-alliance-plugins/partnerbox2/releases/latest)
-[![Github last commit](https://img.shields.io/github/last-commit/oe-alliance-plugins/partnerbox2)](https://github.com/oe-alliance-plugins/partnerbox2)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/y/oe-alliance-plugins/partnerbox2.svg?label=commits)](https://github.com/oe-alliance-plugins/partnerbox2/commits)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/m/oe-alliance-plugins/partnerbox2.svg?label=commits)](https://github.com/oe-alliance-plugins/partnerbox2/commits)
+[![Plugin Version](https://img.shields.io/github/v/tag/oe-alliance-plugins/Partnerbox?label=Latest%20Version&color=darkviolet)](https://github.com/oe-alliance-plugins/Partnerbox/tags)
+[![Latest Release](https://img.shields.io/github/release-date/oe-alliance-plugins/Partnerbox?label=From&color=darkviolet)](https://github.com/oe-alliance-plugins/Partnerbox/releases/latest)
+[![Github last commit](https://img.shields.io/github/last-commit/oe-alliance-plugins/Partnerbox)](https://github.com/oe-alliance-plugins/Partnerbox)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/y/oe-alliance-plugins/Partnerbox.svg?label=commits)](https://github.com/oe-alliance-plugins/Partnerbox/commits)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/m/oe-alliance-plugins/Partnerbox.svg?label=commits)](https://github.com/oe-alliance-plugins/Partnerbox/commits)
 
 ## SonarCloud status
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_partnerbox2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_partnerbox2&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_partnerbox2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_partnerbox2&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_partnerbox2&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_partnerbox2&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_partnerbox2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_partnerbox2&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_Partnerbox&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_Partnerbox&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_Partnerbox&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_Partnerbox&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_Partnerbox&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_Partnerbox&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_Partnerbox&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_Partnerbox&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
 
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_partnerbox2)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_Partnerbox)
 
 ---
 
@@ -45,7 +45,7 @@ This plugin is released under GPLv3. See [LICENSE](https://www.gnu.org/licenses/
 
 ### 🤝 Contributing & Contact
 
-partnerbox2 is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means partnerbox2 will always need the contributions of users like you. How can you get involved?
+Partnerbox is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means Partnerbox will always need the contributions of users like you. How can you get involved?
 
 For questions or feedback, feel free and please open an issue or contribute with a Pull Request!
 

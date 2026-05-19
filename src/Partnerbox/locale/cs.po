@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Partnerbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-27 11:34+0200\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims21@users.sourceforge.net>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
-#: plugin.py:102
+#: ../plugin.py:102
 #, python-format
 msgid "%d Hour"
 msgid_plural "%d Hours"
@@ -22,438 +22,454 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: plugin.py:102
+#: ../plugin.py:102
 #, python-format
 msgid "%d Minutes"
 msgstr ""
 
-#: plugin.py:1437
+#: ../plugin.py:1441
 msgid "Activate Picture in Picture"
 msgstr ""
 
-#: plugin.py:1618
+#: ../plugin.py:1622
 msgid "Add"
 msgstr "Přidat"
 
 #
-#: plugin.py:2026
+#: ../plugin.py:2035
 #, fuzzy
 msgid "Add Partnerbox Bouquets"
 msgstr "Nastavení partnerboxu"
 
-#: plugin.py:2022
+#: ../plugin.py:2031
 #, fuzzy
 msgid "Add Partnerbox Channels"
 msgstr "Partnerboxy"
 
-#: plugin.py:2031
+#: ../plugin.py:2040
 msgid "Alternative bouquets/services are not supported!"
 msgstr ""
 
-#: plugin.py:989
+#: ../plugin.py:995
 msgid "Attention, this is a repeated timer!\n"
 msgstr ""
 
-#: plugin.py:2082
+#: ../plugin.py:2091
 #, python-format
 msgid "Bouquet '%s' successfully added from '%s'."
 msgstr ""
 
-#: plugin.py:1691
+#: ../plugin.py:1695
 msgid "Box was successfully removed!"
 msgstr ""
 
-#: plugin.py:1724 plugin.py:1727
+#: ../plugin.py:1727 ../plugin.py:1730
 msgid "Boxsearch"
 msgstr ""
 
-#: plugin.py:1125
+#: ../plugin.py:1131
 #, python-format
 msgid "Channel list from: %s"
 msgstr ""
 
-#: plugin.py:1439
+#: ../plugin.py:1443
 msgid "Choose action:"
 msgstr ""
 
-#: plugin.py:1026
+#: ../plugin.py:1032
 msgid "Clean up (delete) all completed timers?"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Define the interval for downloading the RemoteTimer list."
 msgstr ""
 
-#: plugin.py:1620
+#: ../plugin.py:1624
 msgid "Delete"
 msgstr "Odstranit"
 
-#: plugin.py:1434
+#: ../plugin.py:1438
 msgid "Disable Picture in Picture"
 msgstr ""
 
-#: plugin.py:1974
+#: ../plugin.py:1983
 msgid "Disable Timer"
 msgstr ""
 
-#: plugin.py:1679
+#: ../plugin.py:996
+#, fuzzy
+msgid "Do you really want to delete the timer?"
+msgstr ""
+"Chcete skutečně odstranit časovač \n"
+"%s ?"
+
+#: ../plugin.py:1683
 #, fuzzy
 msgid "Do you really want to remove this partnerbox from list?"
 msgstr ""
 "Chcete skutečně odstranit časovač \n"
 "%s ?"
 
-#: plugin.py:1570 plugin.py:1578
+#: ../plugin.py:1574 ../plugin.py:1582
 msgid "EPG refresh"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Enable Debuglog *"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 #, fuzzy
 msgid "Enable Partnerbox in Channel Selection *"
 msgstr "Partnerboxy"
 
-#: setup.xml
+#: ../setup.xml
 #, fuzzy
 msgid "Enable Partnerbox in EPG *"
 msgstr "Partnerboxy"
 
-#: plugin.py:1974
+#: ../plugin.py:1983
 msgid "Enable Timer"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Enables Partnerbox functions in Channel Selection."
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 #, fuzzy
 msgid "Enables Partnerbox functions in local Electronic Program Guide."
 msgstr "Partnerboxy"
 
-#: plugin.py:1159
+#: ../plugin.py:1164
 #, fuzzy
 msgid "Getting channel information..."
 msgstr "Získávají se informace o programu..."
 
 #
-#: plugin.py:1174
+#: ../plugin.py:1179
 msgid "Give Enigma time to fill epg cache..."
 msgstr "Načítá se epg cache, čekejte..."
 
-#: setup.xml
+#: ../setup.xml
 msgid "IP"
 msgstr "IP"
 
-#: setup.xml
+#: ../setup.xml
 msgid "IP address of the Remote Box to log in."
 msgstr ""
 
 #
-#: setup.xml
+#: ../setup.xml
 #, fuzzy
 msgid "Load RemoteTimers *"
 msgstr "Partnerbox: Časovač"
 
 #
-#: plugin.py:1638
+#: ../plugin.py:1642
 #, fuzzy
 msgid "Loading partnerboxes"
 msgstr "Nastavení partnerboxu"
 
-#: plugin.py:798
+#: ../plugin.py:805
 msgid "Local box"
 msgstr ""
 
-#: plugin.py:2201
+#: ../plugin.py:2210
 msgid "Manage timer for other boxes in network"
 msgstr "Správa časovačů ostatních přijímačů v síti"
 
-#: plugin.py:1441
+#: ../plugin.py:1445
 msgid "Menu PiP"
 msgstr ""
 
-#: plugin.py:1432
+#: ../plugin.py:1436
 msgid "Move Picture in Picture"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Name"
 msgstr "Název"
 
-#: setup.xml
+#: ../setup.xml
 msgid "Name of the Remote Box (freely selectable)."
 msgstr ""
 
-#: plugin.py:667
+#: ../plugin.py:674
 msgid "No description available"
 msgstr ""
 
-#: plugin.py:982 plugin.py:1856
+#: ../plugin.py:988 ../plugin.py:1859
 msgid "No message from box received."
 msgstr ""
 
-#: plugin.py:659
+#: ../plugin.py:666
 msgid "No name available"
 msgstr ""
 
-#: plugin.py:676
+#: ../plugin.py:684
 msgid "No servicename available"
 msgstr ""
 
-#: plugin.py:656
+#: ../plugin.py:663
 msgid "No servicereference available"
 msgstr ""
 
-#: plugin.py:2211
+#: ../plugin.py:2220
 msgid "Partnerbox"
 msgstr "Partnerbox"
 
-#: setup.xml
+#: ../setup.xml
 #, fuzzy
 msgid "Partnerbox Config"
 msgstr "Partnerboxy"
 
-#: plugin.py:1728
+#: ../plugin.py:1731
 #, fuzzy
 msgid "Partnerbox Entry Actions"
 msgstr "Partnerboxy"
 
 #
-#: setup.xml
+#: ../setup.xml
 msgid "Partnerbox Setup"
 msgstr "Nastavení partnerboxu"
 
 #
-#: plugin.py:1571
+#: ../plugin.py:1575
 #, fuzzy
 msgid "Partnerbox Setup Actions"
 msgstr "Nastavení partnerboxu"
 
-#: plugin.py:1569
+#: ../plugin.py:1573
 #, fuzzy
 msgid "Partnerbox entries"
 msgstr "Partnerboxy"
 
-#: plugin.py:2037
+#: ../plugin.py:2046
 msgid "Partnerbox is currently streaming from internet and this cannot be forwarded!"
 msgstr ""
 
-#: plugin.py:2034
+#: ../plugin.py:2043
 msgid "Partnerbox is currently streaming from media and this cannot be forwarded!"
 msgstr ""
 
-#: plugin.py:1749
+#: ../plugin.py:1752
 #, fuzzy
 msgid "Partnerbox: Boxes found in network"
 msgstr "Partnerboxy"
 
-#: plugin.py:1616 plugin.py:2046 plugin.py:2128
+#: ../plugin.py:1620 ../plugin.py:2055 ../plugin.py:2137
 #, fuzzy
 msgid "Partnerbox: List of partnerboxes"
 msgstr "Partnerbox: seznam"
 
 #
-#: plugin.py:1369
+#: ../plugin.py:1374
 #, fuzzy
 msgid "Partnerbox: Remote player"
 msgstr "Partnerbox: TV přehrávač"
 
 #
-#: plugin.py:2208
+#: ../plugin.py:2217
 msgid "Partnerbox: RemoteTV Player"
 msgstr "Partnerbox: TV přehrávač"
 
 #
-#: plugin.py:2201
+#: ../plugin.py:2210
 msgid "Partnerbox: RemoteTimer"
 msgstr "Partnerbox: Časovač"
 
 #
-#: plugin.py:523
+#: ../plugin.py:529
 #, fuzzy
 msgid "Partnerbox: Select Bouquet"
 msgstr "Nastavení partnerboxu"
 
-#: plugin.py:574
+#: ../plugin.py:580
 #, fuzzy
 msgid "Partnerbox: Select Channel"
 msgstr "Partnerboxy"
 
 #
-#: plugin.py:1564
+#: ../plugin.py:1568
 #, fuzzy
 msgid "Partnerbox: Setup"
 msgstr "Nastavení partnerboxu"
 
 #
-#: plugin.py:2210
+#: ../plugin.py:2219
 #, fuzzy
 msgid "Partnerbox: Stream current RemoteChannel"
 msgstr "Partnerbox - vzdálený přehrávač"
 
-#: plugin.py:1565
+#: ../plugin.py:1569
 #, fuzzy
 msgid "Partnerboxes"
 msgstr "Partnerbox"
 
-#: setup.xml
+#: ../setup.xml
 msgid "Password"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Password for the Remote Box to log in.."
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Port"
 msgstr "Port"
 
-#: setup.xml
+#: ../setup.xml
 msgid "Port of the Remote Box to log in."
 msgstr ""
 
-#: plugin.py:977
+#: ../plugin.py:983
 msgid "Record timer not added."
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Refresh remote Electronic Program Guide."
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Refresh remote epg"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Refresh time"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Refresh time for downloading the remote Electronic Program Guide."
 msgstr ""
 
-#: plugin.py:806
+#: ../plugin.py:813
 #, fuzzy
 msgid "Remote box:"
 msgstr "Vzdálený časovač"
 
-#: plugin.py:1765
+#: ../plugin.py:1768
 msgid "Searching for active and standby boxes in peer-to-peer network..."
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Select 'Yes' to enable add debug output to log."
 msgstr ""
 
-#: plugin.py:1704
+#: ../plugin.py:1708
 #, fuzzy
 msgid "Select operation for"
 msgstr "Zvolte operaci pro partnerbox"
 
-#: plugin.py:884
+#: ../plugin.py:891
 msgid "Select the location in which to store the recording:"
 msgstr ""
 
-#: plugin.py:2072
+#: ../plugin.py:2081
 #, python-format
 msgid "Service '%s' from '%s' was already added."
 msgstr ""
 
-#: plugin.py:2070
+#: ../plugin.py:2079
 #, python-format
 msgid "Service '%s' successfully added from '%s'."
 msgstr ""
 
-#: plugin.py:2211
+#: ../plugin.py:2220
 #, fuzzy
 msgid "Setup for Partnerbox"
 msgstr "Nastavení Partnerboxu"
 
-#: setup.xml
+#: ../setup.xml
 msgid "Show 'RemoteTV player' in Extensions Menu *"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Show 'Stream current Service' in Extensions Menu *"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Show Partnerbox function 'RemoteTV player' in Extensions Menu."
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Show Partnerbox function 'Stream current service' in Extensions Menu."
 msgstr ""
 
-#: plugin.py:2208
+#: ../plugin.py:2217
 #, fuzzy
 msgid "Stream TV from your partnerbox"
 msgstr "Streamovat TV z Partnerboxu"
 
 #
-#: plugin.py:2210
+#: ../plugin.py:2219
 #, fuzzy
 msgid "Stream current channel from partnerbox"
 msgstr "Streamovat aktuální program z Partnerboxu"
 
-#: plugin.py:1752
+#: ../plugin.py:1755
 msgid "Take over"
 msgstr ""
 
-#: plugin.py:1798
+#: ../plugin.py:1801
 msgid "This box is already installed!"
 msgstr ""
 
-#: plugin.py:921
+#: ../plugin.py:927
 #, python-format
 msgid "Timer overview from: %s"
 msgstr ""
 
 #
-#: plugin.py:1702
+#: ../plugin.py:1706
 msgid "Toggle Standby"
 msgstr "Přepnout Standby"
 
-#: plugin.py:73
+#: ../plugin.py:73
 msgid "Unexpected error accessing WebIF"
 msgstr ""
 
-#: plugin.py:1751
+#: ../plugin.py:776
+msgid "Unexpected error accessing stream"
+msgstr ""
+
+#: ../plugin.py:1754
 msgid "Upper/lower case"
 msgstr ""
 
-#: plugin.py:1128
+#: ../plugin.py:1134
 msgid "Zap"
 msgstr "Přepnout"
 
-#: plugin.py:1430
+#: ../plugin.py:1434
 msgid "Zap focus to Picture in Picture"
 msgstr ""
 
-#: plugin.py:1430
+#: ../plugin.py:1434
 msgid "Zap focus to main screen"
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Zap to service on Remote Box when streaming."
 msgstr ""
 
-#: setup.xml
+#: ../setup.xml
 msgid "Zap to service when streaming"
 msgstr ""
 
-#: plugin.py:1780
+#: ../plugin.py:1189
+msgid "Zapping to"
+msgstr ""
+
+#: ../plugin.py:1783
 msgid "already installed"
 msgstr ""
 
-#: plugin.py:205 plugin.py:530 plugin.py:531 plugin.py:542 plugin.py:543
+#: ../plugin.py:215 ../plugin.py:536 ../plugin.py:537 ../plugin.py:548
+#: ../plugin.py:549
 msgid "n/a"
 msgstr ""
 
-#: plugin.py:1780
+#: ../plugin.py:1783
 msgid "not installed yet"
 msgstr ""
